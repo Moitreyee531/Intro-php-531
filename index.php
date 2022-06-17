@@ -38,6 +38,5 @@ foreach($students as $name=>$roll)
 
 ?>
 
-
 </body>
 </html>
