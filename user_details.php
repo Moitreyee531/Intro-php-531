@@ -8,17 +8,14 @@
     <?php session_start() ?>
 </head>
 <body>
-    Logged in user details:
+    Logged in user details: 
     <br>
-    Username : <?php echo $_SESSION['username'];?>
-
+    Username : <?php echo $_SESSION['username']; ?>
 
     <br>
-   Password : <?php echo $_SESSION['password'];?>
+    Password : <?php echo $_SESSION['password']; ?>
 
-   <br>
-   <a href="logout.php">Logout</a>
-
-
+    <br>
+    <a href="logout.php">Logout</a>
 </body>
 </html>

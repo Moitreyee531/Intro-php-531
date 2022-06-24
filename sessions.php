@@ -9,15 +9,16 @@
     <?php session_start() ?>
 </head>
 <body>
-    <?php   
-    $username = $_POST['username'];
-    $password = $_POST['password'];
+    <?php
+        $username = $_POST['username'];
+        $password = $_POST['password'];
 
-    $SESSION['username']=$username;
-    $SESSION['password']= $password;
+        $_SESSION['username'] = $username;
+        $_SESSION['password'] = $password;
 
-    echo 'Session started';
+        echo 'Session started';
     ?>
+    <br>
     <a href="user_details.php">Click to view user details</a>
 </body>
 </html>
