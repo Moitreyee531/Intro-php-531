@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    Hello from footer page
+    Hello from footer page test
 </body>
 </html>
